@@ -1,7 +1,7 @@
 body {
     margin: 0;
     text-align: center;
-    background: url("https://media.giphy.com/media/3DrHrnC0JMotPiopno/giphy.gif");
+    background: url("./background.gif");
     background-size: cover;
 }
 
