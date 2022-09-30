@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="title">Basketball Score Counter</h1>
+    <div class="container">
+      <div class="score-card">
+        <h3 class="score-card-title">HOME</h3>
+        <div class="score-num" id="home-score">0</div>
+        <div class="buttons">
+          <button class="btn" onclick="add(true, 1)">+1</button>
+          <button class="btn" onclick="add(true, 2)">+2</button>
+          <button class="btn" onclick="add(true, 3)">+3</button>
+        </div>
+      </div>
+      <div class="score-card">
+        <h3 class="score-card-title">GUEST</h3>
+        <div class="score-num" id="guest-score">0</div>
+        <div class="buttons">
+          <button class="btn" onclick="add(false, 1)">+1</button>
+          <button class="btn" onclick="add(false, 2)">+2</button>
+          <button class="btn" onclick="add(false, 3)">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

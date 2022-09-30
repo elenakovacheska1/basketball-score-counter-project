@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: url("https://media.giphy.com/media/3DrHrnC0JMotPiopno/giphy.gif");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: clockFont;
+    src: url(./font.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #402769;
+}
+
+.score-num, .buttons {
+    font-family: clockFont;
+}
+
+.score-num {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 120px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px 0px 60px 0px;
+}
+
+.btn:hover {
+    text-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 5px white;
+}
+
+.score-card-title {
+    color: white;
+    font-size: 40px;
+    margin: 60px auto 10px auto;
+}
+
+#title {
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px black;
+}
